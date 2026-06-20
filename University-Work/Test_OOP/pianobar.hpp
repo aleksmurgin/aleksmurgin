@@ -23,16 +23,16 @@ public:
                  Establishment(name, capacity),
                  Restaurant<T>(name, capacity, kitchen, price_per_person),
                  MusicVenue(name, capacity, music_type, ticket_price){}
-    const char* type()const{
+    const char* type()const final{
         return "PianoBar";
     }
-    Establishment* clone()const{
+    Establishment* clone()const final{
         return (new PianoBar(*this));
     }
-    double max_profit()const{
+    double max_profit()const final{
         return ((double)capacity*(ticket_price+Restaurant<T>::price_per_person));
     }
-    ~PianoBar() = default;
+    ~PianoBar() final = default;
 };
 
 #endif

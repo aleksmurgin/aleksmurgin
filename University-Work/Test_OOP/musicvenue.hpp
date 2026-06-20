@@ -57,13 +57,13 @@ public:
         }
         return *this;
     }
-    const char* type()const{
+    const char* type()const override{
         return "MusicVenue";
     }
-    Establishment* clone()const{
+    Establishment* clone()const override{
         return (new MusicVenue(*this));
     }
-    double max_profit()const {
+    double max_profit()const override{
         return ((double)capacity*ticket_price);
     }
 };

@@ -19,16 +19,16 @@ public:
                const ll& capacity,
                const T& kitchen,
                const double& price_per_person): Establishment(name, capacity), kitchen(kitchen), price_per_person(price_per_person){}
-    const char* type()const{
+    const char* type()const override{
         return "Restaurant";
     }
-    Establishment* clone()const{
+    Establishment* clone()const override{
         return (new Restaurant(*this));
     }
-    double max_profit()const{
+    double max_profit()const override{
         return (price_per_person*(double)capacity);
     }
-    ~Restaurant() = default;
+    ~Restaurant() override = default;
 };
 
 #endif
