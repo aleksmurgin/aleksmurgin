@@ -1,21 +1,20 @@
-## Hi there 👋
+## Hi there, I am Aleksandar 👋
 I am a Computer Science student at Sofia University (FMI) with a strong foundation in complex data structures and algorithms, because I enjoy tackling competitive programming challenges.
 
-### 🚀 About Me
-* 🎓 Currently studying **Computer Science** at Sofia University (Faculty of Mathematics and Informatics).
-* 💻 Passionate about **C++** and performance optimization.
-* 🏆 Active in competitive programming and national informatics olympiads.
-* 📫 Reach me at: [aleksandarmurgin@gmail.com](mailto:aleksandarmurgin@gmail.com) 
+### About Me
+*  Currently studying **Computer Science** at Sofia University (Faculty of Mathematics and Informatics).
+*  Passionate about **C++** and performance optimization.
+*  Active in competitive programming and national informatics olympiads.
+*  Reach me at: [aleksandarmurgin@gmail.com](mailto:aleksandarmurgin@gmail.com) 
 
-### 🛠️ Tech Stack & Tools
+###  Tech Stack & Tools
 * **Languages:** C++
 * **Concepts:** Data Structures & Algorithms (DSA), Graph Theory, Automata Theory, Object-Oriented Programming
 * **Tools & Workflows:** Git, GitHub
 
-### 📂 Featured Projects
-#### Terminal Wordle
-A fully playable C++ clone of the popular game, built entirely for the command line.
-* Includes dynamic dictionary validation, input sanitization, and a rigorously tested "Hard Mode" ruleset constraint system.
+###  Featured Projects
+#### Terminal Wordle | 1st Place, 2023 Programming Competition
+A fully playable, command-line clone of Wordle written in C++. This project was rapidly prototyped from scratch in under 4 hours, with a strict focus on delivering a feature-complete Minimum Viable Product under intense competition time constraints. 
 
 #### Algorithmic Problem Solving & DSA
 A curated collection of my most complex competitive programming solutions and reusable data structures.
